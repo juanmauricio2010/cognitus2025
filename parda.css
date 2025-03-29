@@ -1,7 +1,46 @@
 header {
-    border: 1rem solid orangered; 
+    display: flex;
+    justify-content: right;
+    border: 1rem solid rgb(160, 6, 6); 
 }
 
-#door{
-    height: 8rem;
+#door {
+    height: 8rem; 
+}
+
+header #door {
+    height: 5rem;
+    width: 5rem;
+    border: 0.3rem solid rgb(90, 5, 5);
+border-radius: 50%;
+}
+
+nav {
+    border: 1rem solid rgb(252, 17, 17); 
+}
+
+.Hello{
+    border: 0.3rem solid orangered;
+     
+}
+
+.Helado{
+    border: 0.3rem solid pink;
+     
+}.Perrito{
+    border: 0.3rem solid olive; 
+     
+}
+
+
+aside {
+    border: 1rem solid rgb(255, 136, 0); 
+}
+
+main {
+    border: 1rem solid rgb(240, 228, 64); 
+}
+
+ footer {
+    border: 1rem solid rgb(255, 255, 102); 
 }
